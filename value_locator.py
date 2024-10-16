@@ -15,9 +15,14 @@ def find_highest(first, second, third, fourth, fifth):
     if fifth > highest:
         highest = fifth
 
-print("The highest number is: ", highest)
+    print("The highest number is: ", highest)
 
 #Ask for user to input 5 variables
-#Print highest number
+first = int(input("Enter the first number: "))
+second = int(input("Enter the second number: "))
+third = int(input("Enter the third number: "))
+fourth = int(input("Enter the fourth number: "))
+fifth = int(input("Enter the fifth number: "))
 
+#Print highest number
 
