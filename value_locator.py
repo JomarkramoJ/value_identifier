@@ -49,5 +49,5 @@ while True:
     except ValueError:
         print("Please enter a valid number: ")
 
-#Print highest number
-
+#Find variables
+find_highest(first, second, third, fourth, fifth)
