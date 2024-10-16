@@ -18,7 +18,13 @@ def find_highest(first, second, third, fourth, fifth):
     print("The highest number is: ", highest)
 
 #Ask for user to input 5 variables
-first = int(input("Enter the first number: "))
+while True:
+    try:
+        first = int(input("Enter the first number: "))
+        break
+    except ValueError:
+        print("Please enter a valid number: ")
+        
 second = int(input("Enter the second number: "))
 third = int(input("Enter the third number: "))
 fourth = int(input("Enter the fourth number: "))
