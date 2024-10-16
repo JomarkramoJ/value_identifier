@@ -24,11 +24,30 @@ while True:
         break
     except ValueError:
         print("Please enter a valid number: ")
-        
-second = int(input("Enter the second number: "))
-third = int(input("Enter the third number: "))
-fourth = int(input("Enter the fourth number: "))
-fifth = int(input("Enter the fifth number: "))
+while True:
+    try:
+        second = int(input("Enter the second number: "))
+        break
+    except ValueError:
+        print("Please enter a valid number: ")
+while True:
+    try:
+        third = int(input("Enter the third number: "))
+        break
+    except ValueError:
+        print("Please enter a valid number: ")
+while True:
+    try:
+        fourth = int(input("Enter the fourth number: "))
+        break
+    except ValueError:
+        print("Please enter a valid number: ")
+while True:
+    try:
+        fifth = int(input("Enter the fifth number: "))
+        break
+    except ValueError:
+        print("Please enter a valid number: ")
 
 #Print highest number
 
